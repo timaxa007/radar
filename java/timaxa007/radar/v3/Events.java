@@ -20,6 +20,7 @@ public class Events {
 	private static final Minecraft mc = Minecraft.getMinecraft();
 	private static final ResourceLocation texture = new ResourceLocation(RadarMod.MODID, "textures/gui/gui.png");
 	private final AxisAlignedBB aabb = AxisAlignedBB.getBoundingBox(0, 0, 0, 0, 0, 0);
+	//Radius of the coverage area -- Радиус области охвата
 	private final float radius = 32;
 	public static int direction = 0;
 	public static boolean
