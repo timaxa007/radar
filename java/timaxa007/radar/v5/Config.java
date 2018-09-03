@@ -19,7 +19,7 @@ public class Config {
 	public static void syncConfig() {
 		Events.direction = (byte)config.get(categoryGui, "direction", Events.direction,
 				"0 - left-top,		1 - center-top,		2 - right-top, \n" +
-						"3 - left-center,	4 - center-center,	5 - right-center, \n" +
+				"3 - left-center,	4 - center-center,	5 - right-center, \n" +
 				"6 - left-botton,	7 - center-botton,	8 - right-botton.").getInt();
 		Events.radius = (float)config.get(categoryGui, "radius", Events.radius).getDouble();
 		Events.scale = (float)config.get(categoryGui, "scale", Events.scale).getDouble();

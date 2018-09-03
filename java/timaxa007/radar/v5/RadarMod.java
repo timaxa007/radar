@@ -7,7 +7,7 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraftforge.common.MinecraftForge;
 
-@Mod(modid = RadarMod.MODID, name = RadarMod.NAME, version = RadarMod.VERSION, guiFactory = "timaxa007.radar.v4.GuiFactory")
+@Mod(modid = RadarMod.MODID, name = RadarMod.NAME, version = RadarMod.VERSION, guiFactory = "timaxa007.radar.v5.GuiFactory")
 public class RadarMod {
 
 	public static final String
